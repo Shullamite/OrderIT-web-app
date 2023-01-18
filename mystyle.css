@@ -18,7 +18,7 @@ body{
     max-width: 100%;
 	max-height: 100vh;
     display: flex;
-    position: relative;
+    position: absolute;
     overflow: visible;
 }
 .vertical_bar{
@@ -26,7 +26,7 @@ body{
     width: 230px;
     max-height: 1140px;
     float: left;
-    position: sticky;
+    position: fixed;
 }
 .vertical_bar .cart{
     margin: 10px 0px 18px 57px;
@@ -64,13 +64,7 @@ body{
 .button2 button{
     cursor: pointer;
 }
-.button2 button:hover{
-    background-color: white;
-    border: 2px solid #ff6c01;
-}
-.button2 button a:hover{
-    color:  #ff6c01;
-}
+
 nav ul{
     margin: 0px 0px 0px 33px; 
 }
@@ -94,6 +88,9 @@ footer{
     line-height: 410px;
     font-style: italic;
 }
+.secondside{
+    margin-left: 230px;
+}
 .toptitle{
     display: flex;
     margin: 60px 0px 0px 35px;
@@ -102,7 +99,7 @@ h1{
     margin-right: 350px;
     font-size: 40px;
 }
-.toptitle input[type=text]{
+.toptitle input[type=search]{
     padding: 5px 230px 5px 20px;
     margin-top: 8px;
     margin-right: 16px;
@@ -115,10 +112,31 @@ h1{
     border-radius: 8px ;
     outline: none;
     border: 1px solid #7D7D7D ;
+    margin-left: 40px;
+}
+.items .item{
+    display: flex;
+    background-color: #FCFAEF;
+    margin: 25px 0px 0px 35px;
 }
 .item{
-    display: flex;
+    padding: 15px 0px 8px 0px;
+    
 }
 .img img{
-    width: 120px;
+    width: 140px;
+    margin-left: 32px;
+}
+.description{
+    margin: 12px 0px 0px 45px;
+}
+.red{
+    margin-bottom: 7px;
+}
+.red1{
+    margin-bottom: 10px;
+}
+.more{
+    color: #FF6C01;
+    font-weight: bolder;
 }

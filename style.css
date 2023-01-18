@@ -91,10 +91,37 @@ li a:hover:not(.active) {
     color: white;
     
 }
-button:hover{
-    padding-right:80px;
-    transition: .3s;
-}
+
+.button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button1:hover span {
+    padding-right: 20px;
+  }
+  
+  .button1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+
+
 .button1 button{
     cursor: pointer;
 }
@@ -111,7 +138,7 @@ button:hover{
 }
 .icons ul li{
     list-style: none;
-    margin: 28px 50px;
+    margin: 28px 50px 28px 50px;
     
 }
 @media screen  and (max-width: 930px){
