@@ -1,0 +1,142 @@
+@font-face {
+    src: url(assets/fonts/Poppins-Light.ttf);
+    font-family: poppins-Italic;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins-Italic; 
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+.container{
+    max-width: 100%;
+	max-height: 100vh;
+    display: flex;
+    position: absolute;
+    overflow: visible;
+}
+.vertical_bar{
+    background-color: #FCFAEF;
+    width: 230px;
+    max-height: 1140px;
+    float: left;
+    position: fixed;
+}
+.vertical_bar .cart{
+    margin: 10px 0px 18px 57px;
+}
+.vertical_bar .cart img{
+    width: 100px;
+}
+.title{
+    margin: -45px 0px 9px 50px;
+    font-weight: 900;
+    font-size: 32px;
+    color: black;
+}
+.it{
+    font-size: 32px;
+    font-weight: 900;;
+    color: #FF6C01; 
+}
+.wrap{
+    border: 2px solid #FFE49E;
+}
+.button2 button{
+    background-color: #ff6c01;
+    border: none;
+    margin: 18px 0px 20px 33px;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 900;
+}
+.button2 button a{
+    color: white; 
+}
+.button2 button{
+    cursor: pointer;
+}
+
+nav ul{
+    margin: 0px 0px 0px 33px; 
+}
+nav ul li{
+    line-height:  50px;
+}
+nav ul li a{
+    color: #454545;
+}
+.active{
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    color: #ff6c01;
+    font-weight: bold;
+}
+footer{
+    margin-left: 33px;
+    font-size: 12px;
+    font-weight: 200px;
+    line-height: 410px;
+    font-style: italic;
+}
+.secondside{
+    margin-left: 230px;
+}
+.toptitle{
+    display: flex;
+    margin: 60px 0px 0px 35px;
+}
+h1{
+    margin-right: 350px;
+    font-size: 40px;
+}
+.toptitle input[type=search]{
+    padding: 5px 230px 5px 20px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 15px;
+}
+.toptitle .search-text:hover {
+    border: 1px solid orange ;
+  }
+.search-text {
+    border-radius: 8px ;
+    outline: none;
+    border: 1px solid #7D7D7D ;
+    margin-left: 40px;
+}
+.items .item{
+    display: flex;
+    background-color: #FCFAEF;
+    margin: 25px 0px 0px 35px;
+}
+.item{
+    padding: 15px 0px 8px 0px;
+    
+}
+.img img{
+    width: 140px;
+    margin-left: 32px;
+}
+.description{
+    margin: 12px 0px 0px 45px;
+}
+.red{
+    margin-bottom: 7px;
+}
+.red1{
+    margin-bottom: 10px;
+}
+.more{
+    color: #FF6C01;
+    font-weight: bolder;
+}

@@ -3,6 +3,11 @@
  * Copyright 2011-2022 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ @font-face {
+    src: url(assets/fonts/Poppins-Light.ttf);
+    font-family: poppins-Italic;
+}
 :root,
 [data-bs-theme="light"] {
     --bs-blue: #0d6efd;
@@ -338,7 +343,7 @@ sup {
 }
 a {
     color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
-    text-decoration: underline;
+
 }
 a:hover {
     --bs-link-color-rgb: var(--bs-link-hover-color-rgb);

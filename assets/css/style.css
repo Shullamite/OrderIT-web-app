@@ -20,6 +20,7 @@ body{
 }
 .mini{
     padding: 0 20px 0 20px;
+    background-color: #FCFAEF;
 }
 
 .logo  img{
@@ -142,11 +143,3 @@ li a:hover:not(.active) {
 }
 
 /* nav bar */
-#submit{
-    border: 1px solid #ff6c01;
-    color: black;
-}
-#submit:hover{
-    background-color: #ff6c01;
-    color: wheat !important;
-}
