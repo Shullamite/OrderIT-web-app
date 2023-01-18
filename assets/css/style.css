@@ -19,22 +19,21 @@ body{
 	
 }
 .mini{
-    display: flex;
-    background-color: #FCFAEF;
-    width: 100%;
+    padding: 0 20px 0 20px;
 }
 
 .logo  img{
     width: 70px;
     height: 70px;
-    margin-left: 18px;
+    margin-left: 50px;
     
 }
 .p{
     margin-top: 17px;
     font-weight: bolder;
     font-size: 30px;
-    margin-left: 5px;
+    margin-left: -15px;
+  
 }
 nav{
     margin-left: 710px;
@@ -114,6 +113,13 @@ button:hover{
     margin: 28px 50px;
     
 }
-@media screen  and (max-width: 930px){
 
+/* nav bar */
+#submit{
+    border: 1px solid #ff6c01;
+    color: black;
+}
+#submit:hover{
+    background-color: #ff6c01;
+    color: wheat !important;
 }
