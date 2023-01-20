@@ -5,10 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Offering</title>
         
-        <link rel="stylesheet" href="mystyle.css">
+        <link rel="stylesheet" href="mystyle2.css">
     </head>
   <body>
     <div class="container">
+        <div class="row">
         <div class="vertical_bar">
             <div class="wrap">
                 <div class="cart">
@@ -26,11 +27,11 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a class="active" style="color: #ff6c01" href="Offering.html">Offering</a>
+                        <a href="Offering.html">Offering</a>
                     </li><li>
-                        <a href="Order.html">Order</a>
+                        <a class="active" style="color: #ff6c01" href="Order.html">Order</a>
                     </li><li>
-                        <a href="#">Transaction History</a>
+                        <a href="Transaction_history.html">Transaction History</a>
                     </li><li>
                         <a href="index.html">Log out</a>
                     </li>
@@ -40,3 +41,57 @@
                 Copyright reserved 2023
             </footer>
         </div>
+        <div id="root" class="item_grid_container">
+           
+
+            
+
+             
+
+            
+
+        </div>
+       
+        <div class="cart_payment">
+            <h1>CART</h1>
+            <div id="cartItem" class="overflowtest">Your cart is empty</div>
+            <div class="payment">
+                <div class="foot">
+                    <p>Total Amount</p>
+                    <p id="total">N 0.00</p>
+                </div>
+                <div class="radio">
+                    <form action="/action_page.php">
+                        <div class="delivery_type">
+                            <input type="radio" id="home" name="choice" value="HTML">
+                            <label for="home">Home</label><br>
+                            <input type="radio" id="pickup" name="choice" value="CSS">
+                            <label for="pickup">Pickup</label>
+                        </div>
+                      <div class="delivery_details">
+                        <label for="Address">Address</label><br>
+                        <input class="text" type="text" placeholder="plot 65, Abuja"><br>
+
+                        <label for="num">Phone number</label><br>
+                        <input class="text" type="text" placeholder="+234 800 0000 000"><br>
+
+                      <label for="Address">Account Number</label><br>
+                      <input class="text" type="number" placeholder="1234 5678 9850"><br>
+
+                      <label for="Address">Pin</label><br>
+                      <input class="text" type="number" placeholder="5000"><br>
+
+                      <label for="Address">Cvv</label><br>
+                      <input class="text" type="number" placeholder="123"><br>
+                      </div>
+                      
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+        <script src="script.js"></script>
+        </body>
+           
+        </html>

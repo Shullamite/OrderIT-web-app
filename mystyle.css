@@ -46,7 +46,7 @@ body{
     color: #FF6C01; 
 }
 .wrap{
-    border: 2px solid #FFE49E;
+    
 }
 .button2 button{
     background-color: #ff6c01;
@@ -139,4 +139,7 @@ h1{
 .more{
     color: #FF6C01;
     font-weight: bolder;
+}
+input:checked{
+    background-color: ;
 }
