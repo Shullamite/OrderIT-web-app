@@ -143,3 +143,31 @@ h1{
 input:checked{
     background-color: ;
 }
+
+.ticket{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.ticket{
+    border: 1px solid #454545;
+    padding: 60px 50px;
+    border-radius: 3px;
+}
+.head{
+    margin-left: 600px;
+    margin-top: 40px;
+}
+.coming_soon{
+    margin-left: 600px;
+    font-size: 60px;
+    margin-top: 200px;
+}
+.stars{
+    margin-left: 5px;
+}
+.place{
+    display: flex;
+}

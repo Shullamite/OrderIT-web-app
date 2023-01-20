@@ -9,19 +9,19 @@ const product = [
     {
         id: 2,
         image: 'assets/Image/Meatpie.svg',
-        title1: 'Red velvet Cupcake - Box of 4',
+        title1: 'Nigerian Meat Pie - A piece',
         price: 350,
     },
     {
         id: 3,
-        image: 'assets/Image/Meatpie.svg',
-        title1: 'Red velvet Cupcake - Box of 4',
+        image: 'assets/Image/chocolate.svg',
+        title1: 'Box of Chocolate chip Cookies',
         price: 4500,
     },
     {
         id: 4,
-        image: 'assets/Image/Meatpie.svg',
-        title1: 'Red velvet Cupcake - Box of 4',
+        image: 'assets/Image/glazed.svg',
+        title1: 'Chocolate G lazed Doughnut',
         price: 2000,
     }
 ];

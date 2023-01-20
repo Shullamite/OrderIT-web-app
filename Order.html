@@ -28,11 +28,17 @@
                     </li>
                     <li>
                         <a href="Offering.html">Offering</a>
-                    </li><li>
+                    </li>
+                    <li>
                         <a class="active" style="color: #ff6c01" href="Order.html">Order</a>
-                    </li><li>
+                    </li>
+                    <li>
+                        <a href="receipt.html">receipt</a>
+                    </li>
+                    <li>
                         <a href="Transaction_history.html">Transaction History</a>
-                    </li><li>
+                    </li>
+                    <li>
                         <a href="index.html">Log out</a>
                     </li>
                 </ul>
@@ -61,12 +67,12 @@
                     <p id="total">N 0.00</p>
                 </div>
                 <div class="radio">
-                    <form action="/action_page.php">
+                    <form>
                         <div class="delivery_type">
                             <input type="radio" id="home" name="choice" value="HTML">
-                            <label for="home">Home</label><br>
-                            <input type="radio" id="pickup" name="choice" value="CSS">
-                            <label for="pickup">Pickup</label>
+                            <label for="home">Home delivery</label><br>
+                            <input class="pickup" type="radio" id="pickup" name="choice" value="CSS">
+                            <label for="pickup">Pickup</label><br>
                         </div>
                       <div class="delivery_details">
                         <label for="Address">Address</label><br>
@@ -85,12 +91,19 @@
                       <input class="text" type="number" placeholder="123"><br>
                       </div>
                       
+                      <input onclick="myFunction()" class="btn4" id="btn4" type="submit" value="Order">
                       </form>
                 </div>
             </div>
         </div>
     </div>
         </div>
+        <script>
+            function myFunction() {
+    alert("Order Sent, View receipt " );
+    
+}
+        </script>
         <script src="script.js"></script>
         </body>
            
