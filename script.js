@@ -2,7 +2,7 @@
 const product = [
     {
         id: 1,
-        image: 'assets/Image/Meatpie.svg',
+        image: 'assets/Image/Red_velvet2.svg',
         title1: 'Red velvet Cupcake - Box of 4',
         price: 2000,
     },

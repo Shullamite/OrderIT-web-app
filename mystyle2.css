@@ -134,7 +134,8 @@ footer{
     background-color: #d75d05;
     border: none;
     padding: 8px 5px;
-    margin: 9px 7px 0px 0px ;
+    margin-top: -235px;
+    margin-right: 15px;
 }
 .box button{
     color: #fff;
